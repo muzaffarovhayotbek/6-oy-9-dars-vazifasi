@@ -1,0 +1,28 @@
+.header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #181920;
+  padding: 20px;
+}
+
+.logo {
+  color: #DBE1FF;
+  background-color: #057AFF;
+  padding: 16px;
+  font-size: 30px;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list {
+  padding: 8px;
+  display: flex;
+  gap: 30px;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: #394E6A;
+}

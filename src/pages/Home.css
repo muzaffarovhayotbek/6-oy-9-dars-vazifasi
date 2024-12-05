@@ -1,0 +1,41 @@
+.main {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.main__container {
+  display: flex;
+  gap: 30px;
+}
+
+.main-left {
+  width: 496px;
+}
+
+.main-title {
+  max-width: 42rem;
+  font-size: 2.25rem;
+  font-weight: 700;
+  letter-spacing: -0.01562em;
+  margin-bottom: 20px;
+}
+
+.main-desc {
+  margin-top: 20px;
+
+  width: 450px;
+  color: #F8F8F2;
+  font-size: 18px;
+}
+
+.main-btn {
+ color: #272935;
+ font-size: 16px;
+ background-color: #FF7AC6;
+ margin: 40px;
+ padding: 12px 16px;
+}
+
+.main-rigth img {
+  height: 100%;
+}
