@@ -56,7 +56,7 @@ function App() {
         ></Route>
 
         <Route
-          path="/caart"
+          path="/cart"
           element={
             <MainLayout>
               <Cart></Cart>

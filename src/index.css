@@ -29,7 +29,7 @@ html {
 }
 
 body {
-  background-color: #272935;
+  padding: 24px;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -37,13 +37,12 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1152px;
+  max-width: 1471px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 5rem;
   padding-right: 5rem;
 }
-
 
 @tailwind base;
 @tailwind components;

@@ -8,19 +8,33 @@ function MainLayout({ children }) {
       <header className="header">
         <div className="container header__container">
           <div className="logo">
-            <a href="#">C</a>
+            <NavLink to="/">C</NavLink>
           </div>
           <div className="nav-list">
-            <NavLink to="/" className="text-[#F8F8F2] py-2 px-4 transition-[0.5s] rounded-lg text-[15px] hover:bg-[#2F2F35]">
+            <NavLink
+              to="/"
+              className="text-[#F8F8F2] py-2 px-4 transition-[0.5s] rounded-lg text-[15px] hover:bg-[#2F2F35]"
+            >
               Home
             </NavLink>
-            <NavLink to="/about" className="text-[#F8F8F2] py-2 px-4 transition-[0.5s] rounded-lg text-[15px] hover:bg-[#2F2F35]">
+            <NavLink
+              to="/about"
+              className="text-[#F8F8F2] py-2 px-4 transition-[0.5s] rounded-lg text-[15px] hover:bg-[#2F2F35]"
+            >
               About
             </NavLink>
-            <NavLink className="text-[#F8F8F2] py-2 px-4 transition-[0.5s] rounded-lg text-[15px] hover:bg-[#2F2F35]" to="/Products">
+            <NavLink
+              className="text-[#F8F8F2] py-2 px-4 transition-[0.5s] rounded-lg text-[15px] hover:bg-[#2F2F35]"
+              to="/Products"
+            >
               Products
             </NavLink>
-            <NavLink className='text-[#F8F8F2] py-2 px-4 transition-[0.5s] rounded-lg text-[15px] hover:bg-[#2F2F35]' to="/cart">Cart</NavLink>
+            <NavLink
+              className="text-[#F8F8F2] py-2 px-4 transition-[0.5s] rounded-lg text-[15px] hover:bg-[#2F2F35]"
+              to="/cart"
+            >
+              Cart
+            </NavLink>
           </div>
           <div className="icon"></div>
         </div>

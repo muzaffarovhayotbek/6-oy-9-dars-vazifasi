@@ -1,12 +1,22 @@
 .about-title {
   text-align: center;
   font-size: 60px;
-  color: #394E6A;
+  color: #394e6a;
 }
 
-.about-dsc {
+.about-desc {
   width: 672px;
-  color: #F8F8F2;
+  color: #394e6a;
   font-size: 18px;
-  line-height: 26px
+  line-height: 26px;
+  margin: 24px 208px;
+}
+
+.about-btn {
+  width: 124px;
+  padding: 16px 24px;
+  border-radius: 10px;
+  background-color: blue;
+  color: #DBE1FF;
+  font-size: 36px;
 }

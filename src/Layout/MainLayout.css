@@ -1,13 +1,13 @@
 .header {
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: #181920;
+  background-color: #f0f6ff;
   padding: 20px;
 }
 
 .logo {
-  color: #DBE1FF;
-  background-color: #057AFF;
+  color: #dbe1ff;
+  background-color: #057aff;
   padding: 16px;
   font-size: 30px;
 }
@@ -24,5 +24,6 @@
   gap: 30px;
   font-size: 14px;
   font-family: sans-serif;
-  color: #394E6A;
+  color: black;
 }
+

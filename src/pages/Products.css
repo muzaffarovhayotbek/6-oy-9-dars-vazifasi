@@ -1,0 +1,69 @@
+.products-title {
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+  padding: 8px;
+}
+
+.products-price {
+  color: black;
+  text-align: center;
+  font-size: 16px;
+}
+
+.products-footer {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.products-footer button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+
+/* Tugma uchun asosiy uslublar */
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+
+.btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 14px;
+  border-radius: 0.2rem;
+}
+
+.btn-outline {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline:hover,
+.btn-outline:focus {
+  background-color: black;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.btn-outline:active {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  color: #fff;
+}
