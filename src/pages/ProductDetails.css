@@ -14,7 +14,7 @@
   font-size: 20px;
   margin: 12px;
 }
-.img{
+.img {
   object-fit: cover;
 }
 
@@ -25,21 +25,49 @@
   margin: 24px;
 }
 
-.btn{
+.btn {
   margin: 40px;
-  color: #DBD4ED;
+  color: #dbd4ed;
   padding: 16px;
   font-size: 14px;
-  background-color: #463AA1;
+  background-color: #463aa1;
 }
 
-.href{
+.href {
   display: flex;
   align-items: center;
   gap: 35px;
 }
 
-.href{
+.href {
   color: black;
   font-size: 14px;
+}
+
+.btn-colors {
+  margin-left: 20px;
+  border-radius: 50%;
+
+  background-color: #ff5733;
+}
+.btn-green {
+  margin: 8px;
+  border-radius: 50%;
+  background-color: rgb(51, 255, 87);
+}
+.color {
+  padding-left: 20px;
+  width: 512px;
+  color: #394e6a;
+  font-size: 16px;
+}
+
+.blues {
+  border-radius: 50%;
+
+  background-color: #3366ff;
+  margin: 8px;
+}
+.select{
+  background-color: #FFFFFF;
 }

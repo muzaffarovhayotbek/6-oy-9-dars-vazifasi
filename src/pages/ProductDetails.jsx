@@ -47,6 +47,30 @@ function ProductDetails() {
               <h3 className="company">{product.attributes.company}</h3>
               <h4 className="price">{product.attributes.price}</h4>
               <p className="desc">{product.attributes.description}</p>
+              <div className="mt-6">
+                <h4 className="text-md font-medium tracking-wider capitalize color">
+                  color
+                </h4>
+                <div className="mt-2"></div>
+                <button className="btn-colors badge w-6 h-6 mr-2 border-2 border-secondary"></button>
+                <button className="btn-green badge w-6 h-6 mr-2 false"></button>
+                <button className="blues badge w-6 h-6 mr-2 false"></button>
+              </div>
+              <div className="selects">
+                <h2>Amount</h2>
+                <select className='select'>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+                </select>
+              </div>
               <button className="btn">ADD TO BAG</button>
             </div>
           </div>
