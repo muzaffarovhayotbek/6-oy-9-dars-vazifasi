@@ -6,12 +6,9 @@ function About() {
     <div className="about">
       <div className="container about__container">
         <h2 className="about-title">
-          We love{' '}
-          <span className="about-btn">
-            comfy
-          </span>
+          We love <span className="about-btn">comfy</span>
         </h2>
-        <p className="about-desc">
+        <p className="mt-6 text-lg leading-8 max-w-2xl mx-auto text-[#394E6A] w-[672px]">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quae
           quam blanditiis vitae, dolor non eveniet ipsum voluptatibus, quia
           optio aut! Perferendis ipsa cumque ipsam nostrum reprehenderit ad illo

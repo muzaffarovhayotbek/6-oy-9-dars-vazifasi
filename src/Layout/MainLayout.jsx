@@ -5,6 +5,13 @@ import './MainLayout.css';
 function MainLayout({ children }) {
   return (
     <div>
+      <div className="header-first align-element flex justify-center sm:justify-end">
+        <div className="container header-first__container">
+          <div className="header-nav">
+            <NavLink>Sign in/ Cuest</NavLink>
+          </div>
+        </div>
+      </div>
       <header className="header">
         <div className="container header__container">
           <div className="logo">
@@ -13,24 +20,24 @@ function MainLayout({ children }) {
           <div className="nav-list">
             <NavLink
               to="/"
-              className="text-[#F8F8F2] py-2 px-4 transition-[0.5s] rounded-lg text-[15px] hover:bg-[#2F2F35]"
+              className=" link text-[#F8F8F2] py-2 px-4 transition-[0.5s] rounded-lg text-[15px] hover:bg-[#2F2F35]"
             >
               Home
             </NavLink>
             <NavLink
               to="/about"
-              className="text-[#F8F8F2] py-2 px-4 transition-[0.5s] rounded-lg text-[15px] hover:bg-[#2F2F35]"
+              className="link text-[#F8F8F2] py-2 px-4 transition-[0.5s] rounded-lg text-[15px] hover:bg-[#2F2F35]"
             >
               About
             </NavLink>
             <NavLink
-              className="text-[#F8F8F2] py-2 px-4 transition-[0.5s] rounded-lg text-[15px] hover:bg-[#2F2F35]"
+              className="link text-[#F8F8F2] py-2 px-4 transition-[0.5s] rounded-lg text-[15px] hover:bg-[#2F2F35]"
               to="/Products"
             >
               Products
             </NavLink>
             <NavLink
-              className="text-[#F8F8F2] py-2 px-4 transition-[0.5s] rounded-lg text-[15px] hover:bg-[#2F2F35]"
+              className=" link text-[#F8F8F2] py-2 px-4 transition-[0.5s] rounded-lg text-[15px] hover:bg-[#2F2F35]"
               to="/cart"
             >
               Cart

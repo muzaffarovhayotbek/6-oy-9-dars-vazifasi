@@ -25,7 +25,7 @@ function Products() {
   }
   return (
     <div>
-      <div className="container mx-auto mt-6 flex flex-wrap gap-3">
+      <div className="container mx-auto mt-6 flex flex-wrap gap-3 cursor-pointer">
         {products.length > 0 &&
           products.map(function (product, index) {
             return (
