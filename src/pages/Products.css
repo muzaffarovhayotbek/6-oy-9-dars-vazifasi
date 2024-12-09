@@ -1,12 +1,12 @@
 .products-title {
   text-align: center;
   font-size: 16px;
-  color: #000000;
+  color: #ffffff;
   padding: 8px;
 }
 
 .products-price {
-  color: black;
+  color: #846EAA;
   text-align: center;
   font-size: 16px;
 }
@@ -30,7 +30,6 @@
   background-color: transparent;
 }
 
-/* Tugma uchun asosiy uslublar */
 .btn {
   display: inline-block;
   padding: 0.5rem 1rem;

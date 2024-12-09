@@ -8,7 +8,7 @@ function About() {
         <h2 className="about-title">
           We love <span className="about-btn">comfy</span>
         </h2>
-        <p className="mt-6 text-lg leading-8 max-w-2xl mx-auto text-[#394E6A] w-[672px]">
+        <p className="mt-6 text-lg leading-8 max-w-2xl mx-auto text-[#FFFFFF] w-[672px]">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quae
           quam blanditiis vitae, dolor non eveniet ipsum voluptatibus, quia
           optio aut! Perferendis ipsa cumque ipsam nostrum reprehenderit ad illo

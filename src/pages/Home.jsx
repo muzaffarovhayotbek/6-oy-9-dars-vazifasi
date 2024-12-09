@@ -16,7 +16,7 @@ function Home() {
             </p>
             <NavLink
               to="/Products"
-              className="text-[#272935] bg-[#FF7AC6] mt-[40px] active:scale-95 transition-[0.3s] font-medium uppercase px-4 py-3 rounded-lg main-btn"
+              className="text-[#272935] bg-[#FF7AC6] mt-[40px] active:scale-95 transition-[0.3s] font-medium uppercase px-4 py-3 rounded-lg"
             >
               Our Products
             </NavLink>
@@ -31,7 +31,7 @@ function Home() {
         </div>
       </div>
       <div className=" container section">
-        <h2 className="section-title">Featured products</h2>
+        <h2 className="section-title text-white">Featured products</h2>
         <hr className="hr" />
       </div>
     </div>

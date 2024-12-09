@@ -7,8 +7,10 @@ function MainLayout({ children }) {
     <div>
       <div className="header-first align-element flex justify-center sm:justify-end">
         <div className="container header-first__container">
-          <div className="header-nav">
-            <NavLink>Sign in/ Cuest</NavLink>
+          <div className="flex justify-end gap-7 text-[#e9e9e7] max-w-[1100px] w-full mx-auto">
+            <NavLink className="link link-hover text-xs sm:text-sm hover:underline">
+              Sign in/ Cuest
+            </NavLink>
           </div>
         </div>
       </div>
@@ -31,7 +33,7 @@ function MainLayout({ children }) {
               About
             </NavLink>
             <NavLink
-              className="link text-[#F8F8F2] py-2 px-4 transition-[0.5s] rounded-lg text-[15px] hover:bg-[#2F2F35]"
+              className="py-2 px-4 transition-[0.5s] rounded-lg text-[15px] hover:bg-[#2F2F35]"
               to="/Products"
             >
               Products
